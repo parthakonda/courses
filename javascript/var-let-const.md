@@ -66,6 +66,13 @@ Example:<br>
 
 Wait,
 
+Question:<br>
 `var`, `let` and `const` are same? then why we need to use 3 of them?
 
-Example:
+JavaScript:<br>
+Well, yes the 3 of them are mostly similar. But have some following differences.
+
+### `var`<br>
+
+- When you declare a variable with `var` then they will be processed before execution of code.
+- `scope` of this variable will be is its current execution context
