@@ -97,6 +97,12 @@ So, the first argument of the `call` method will be the object and rest of the m
     -------------------
     105200
 
+Note:
+
+You can also achieve the same functionality by using the new ES6 feature called `spread (...)` operator.
+
+    showSalary(...additionalSalary);
+
 ## Understanding `bind`
 
 `bind()` is used to bind the default `this` object. Means, it will bind the specified value to the `this` in Function object and returns its reference.
