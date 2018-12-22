@@ -51,6 +51,7 @@ Oh, wait `this` is returning Window object?
 
 Oh ya, by default this refers to parent object i.e., window object. When you don't use `new` while creating object then it will take the parent object i.e., `window`.
 
+    // Constructor function
     funtion Movie (name, date) {
         console.log(`this: ${this}`);
         this.name = name;

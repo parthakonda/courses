@@ -14,10 +14,10 @@ So, we're gonna need something that can `return` an object `{}`
                 console.log(`Playing movie ${name}`);
             },
             resume: function () {
-                console.log(`Resuming movie ${name}');
+                console.log(`Resuming movie ${name}`);
             },
             stop: function () {
-                console.log(`Stopping movie ${name}');
+                console.log(`Stopping movie ${name}`);
             }
         }
     }
@@ -34,10 +34,10 @@ So, we're gonna need something that can `return` an object `{}`
                 console.log(`Playing movie ${name}`);
             },
             resume: function () {
-                console.log(`Resuming movie ${name}');
+                console.log(`Resuming movie ${name}`);
             },
             stop: function () {
-                console.log(`Stopping movie ${name}');
+                console.log(`Stopping movie ${name}`);
             }
         }
     }
