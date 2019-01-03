@@ -1,0 +1,8 @@
+---
+- hosts: webserver
+  become: yes
+  become_user: root
+  remote_user: ubuntu
+  tasks:
+    - name: Install nginx if not present
+      apt: name=nginx state=present update_cache=yes
